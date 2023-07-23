@@ -13,12 +13,12 @@ body {
 }
 
 .menu {
-    width: 250px;
+    width: 400px;
     height: 100vh;
     background-color: #191551;
     color: #fff;
     position: fixed;
-    left: -250px;
+    left: -400px;
     transition: left 0.3s ease;
     z-index: 999999;
 }
@@ -63,8 +63,8 @@ body {
 
 .toggle-btn {
     position: absolute;
-    left: 280px;
-    top: 20px;
+    left: 480px;
+    top: 40px;
     font-size: 20px;
     background: #0c0a28;
     border: 2px solid #fff;
