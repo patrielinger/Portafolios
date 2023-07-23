@@ -17,7 +17,7 @@ const gmmedia = `
 <a href="https://www.mediafire.com/file/7pbmju9rj291vkz/1661004718-LEGO.Star.Wars.The.Skywalker.Saga.v1.0.0.32877-P2P.torrent/file"> 
 
                 <img src="https://assets-prd.ignimgs.com/2022/03/31/skywalkersaga-1648748035384.jpg" class="img-juego">
-                <b>Lego StarWars <br> SkyWalker Saga <br> (torrent))</b> 
+                <b>Lego StarWars <br> SkyWalker Saga <br> (torrent)</b> 
                 <p>36070MB</p> 
                 
 </a>

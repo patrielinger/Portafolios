@@ -1,5 +1,4 @@
 const roms = `
-
 <button  class="juego" target="_BLANK"> 
 <a href="https://www.mediafire.com/folder/ukszknlbet5yo/nes"> 
                 <img src="/img/nes.webp" class="img-juego">
@@ -116,7 +115,7 @@ const roms = `
     
                 
 </a>
- 
+
                 </button>
 `;
 

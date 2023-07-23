@@ -83,15 +83,13 @@
         color: white;
     }
     #buscador{
-        background-color: #434343;
-        border-radius: 10px;
-        border: 2px solid #3aab;
-        height: 30px;
-        padding: 2px;
+        background-color: #000e38;
+        border: 2px solid rgb(0, 255, 255);
+        height: 40px;
+        padding: 0px;
+        font-size: 1.1rem;
         color:white;
         width: 19rem;
-        position: relative;
-        bottom: 20px;
     }
     .notis{
         /* padding-left: 50px; */
