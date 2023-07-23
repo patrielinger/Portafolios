@@ -92,9 +92,9 @@
     #buscador {
         background-color: #000e38;
         border: 2px solid rgb(0, 255, 255);
-        height: 50px;
+        height: 80px;
         padding: 5px;
-        font-size: 1.1rem;
+        font-size: 2rem;
         color: white;
         width: 50%;
     }
@@ -313,7 +313,7 @@
         color: white;
         background-color: #0c0a28;
         border: 2px solid #00d9ff;
-        width: 30%;
+        width: 40%;
         height: auto;
         border-radius: 10px;
         padding: 5px;
@@ -332,8 +332,7 @@
         color: beige;
     }
     .juego b{
-        font-size: 1.4rem;
-        height: 20px;
+        font-size: 2rem;
         font-weight: 500;
         display: block;
         text-align: center;
@@ -343,13 +342,15 @@
         display: block;
     }
     .img-juego{
-            height: 100px;
+            height: 300px;
             display: inline;
             border-radius: 10px;
             max-width: 100%;
             width: auto;
     }
-    
+.content-s div h1{
+    font-size: 5rem;
+}
 
 
 
@@ -408,13 +409,18 @@
     position: absolute;
     left: 280px;
     top: 20px;
-    font-size: 20px;
+    font-size: 50px;
     background: #0c0a28;
-    border: 2px solid #fff;
-    padding: 7px 10px 7px 10px;
+    border: 3px solid #fff;
+    padding: 5px;
     border-radius: 50%;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    width: 90px;
     color: #fff;
     cursor: pointer;
+    /* box-sizing: border-box; */
 }
 .toggle-btn:focus {
     outline: none;
