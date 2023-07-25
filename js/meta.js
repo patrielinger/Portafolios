@@ -12,6 +12,25 @@ document.addEventListener("keyup", e=>{
         })
     }
   })
+// Función para cargar las imágenes cuando estén en el viewport
+function lazyLoadImages() {
+  const images = document.querySelectorAll('img[data-src]');
+
+  images.forEach((img) => {
+    const rect = img.getBoundingClientRect();
+
+    if (rect.top >= 0 && rect.top <= window.innerHeight) {
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+    }
+  });
+}
+
+// Cargar imágenes cuando se cargue la página
+lazyLoadImages();
+
+// Cargar imágenes adicionales al hacer scroll
+window.addEventListener('scroll', lazyLoadImages);
 
 
 

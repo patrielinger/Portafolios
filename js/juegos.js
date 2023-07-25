@@ -2,10 +2,10 @@
 function toggleMenu() {
   var menu = document.querySelector('.menu');
   
-  if (menu.style.left === "-250px") {
+  if (menu.style.left === "-400px") {
       menu.style.left = "0";
   } else {
-      menu.style.left = "-250px";
+      menu.style.left = "-400px";
   }
 }
 

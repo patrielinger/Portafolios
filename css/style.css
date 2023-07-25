@@ -12,70 +12,6 @@ body {
     padding: 0;
 }
 
-.menu {
-    width: 400px;
-    height: 100vh;
-    background-color: #191551;
-    color: #fff;
-    position: fixed;
-    left: -400px;
-    transition: left 0.3s ease;
-    z-index: 999999;
-}
-
-.menu-items {
-    list-style: none;
-    padding: 10px;
-}
-
-.menu-items li {
-    padding: 15px;
-    cursor: pointer;
-    vertical-align: middle;
-}
-.cate:hover {
-    color: rgb(195, 201, 206);
-}
-.lateral-img{
-    filter: invert();
-    width: 2rem;
-    margin-right: 5px;
-    vertical-align: text-bottom;
-}
-.redes-2{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    right: 3%;
-}
-.redes-2 a img{
-    width: 2rem;
-    margin-right: 5px;
-    vertical-align: text-bottom;
-}
-.redes-2 a img:hover{
-    filter: blur(1px);
-}
-.content {
-    margin-left: 250px;
-    padding: 20px;
-}
-
-.toggle-btn {
-    position: absolute;
-    left: 480px;
-    top: 40px;
-    font-size: 20px;
-    background: #0c0a28;
-    border: 2px solid #fff;
-    padding: 7px 10px 7px 10px;
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-}
-.toggle-btn:focus {
-    outline: none;
-}
 nav{
     background-color: #0b0925;
     width: 98%;
@@ -116,10 +52,12 @@ nav h1{
 
 body::-webkit-scrollbar{
     background-color: #1d0746;
-    width: 5px;
+    width: 8px;
+    padding: 3px;
 }
 body::-webkit-scrollbar-thumb{
 background: rgb(0, 17, 172);
+width: 7px;
 border-radius: 20px;
 }
 
@@ -152,46 +90,4 @@ header h1{
     text-align: center;
     width: 100%;
     margin-left: 7%;
-}
-
-.juego{
-    color: white;
-    background-color: #0c0a28;
-    border: 2px solid #00d9ff;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    overflow: hidden;
-}
-.juego a{
-    text-decoration: none;
-    color: beige;
-    display: flex;
-}
-.juego main{
-    text-decoration: none;
-    color: beige;
-    display: flex;
-}
-.juego b{
-    font-size: 1.4rem;
-    margin: 4px;
-    height: 20px;
-    width: 80%;
-    font-weight: 500;
-}
-.juego p{
-    height: 10px;
-}
-.img-juego{
-        height: 100px;
-        display: inline;
-        border-radius: 10px;
-        max-width: 100%;
-        width: auto;
-}
-.cate{
-    text-decoration-line: none;
-    display: block;
 }

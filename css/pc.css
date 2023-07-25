@@ -4,7 +4,7 @@
     /* box-sizing: border-box; */
 }
 
-@media(min-width:850px){
+@media(max-width:4850px){
     .contra{
         color: #000e38;
     }
@@ -150,74 +150,11 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid #3aa8fd;
+    background-color: #000e38;
+    border: 2px solid #3afdf3;
     color: white;
     padding: 20px;
     z-index: 999;
-}
-.cartel1{
-        display: none; /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-}
-.cartel2{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel3{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel4{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-}
-.cartel5{
-    display: none; /* El cartel estará oculto inicialmente */
-    position: relative;
-    height: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #303030;
-    border: 2px solid rgba(71, 236, 236, 0.733);
-    color: white;
-    padding: 20px;
-    z-index: 999;
-    font-size: 0.5rem;
-    overflow-y: scroll;
 }
 .cerrar{
     border: 1px solid rgba(72, 255, 255, 0.953);
@@ -260,8 +197,8 @@ section{
 }
 .gamas button h1{
     color: white;
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 0rem;
+    font-weight: 200;
     display: inline;
     vertical-align: top;
     position: relative;
@@ -280,46 +217,119 @@ display: inline-block;
 .star-num{
     color: #ffc02c;
 }
-.cartel a{
-    text-decoration: none;
+.juego{
     color: white;
-}
-.cartel a button{
-    background-color: #292929;
-    animation-name: redes;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-delay: 0;
-    animation: infinite;
-    padding: 10px;
-    margin-left: 40px;
+    background-color: #0c0a28;
+    border: 2px solid #00d9ff;
+    border-radius: 10px;
+    padding: 5px;
     margin-bottom: 10px;
-    border: 2px solid #3aa8fd;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 160px;
+    height: 240px;
 }
-@keyframes redes {
-    0%{
-        border-radius: 2px solid #3aa8fd;
-    }
-    25%{
-        border-radius: 2px solid #ff2ec4;
-    }
-    50%{
-        border-radius: 2px solid rgb(252, 233, 20);
-    }
-    75%{
-        border-radius: 2px solid rgb(255, 0, 0);
-    }
-    100%{
-        border-radius: 2px solid rgb(124, 51, 170);
-    }
+.juego a{
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    vertical-align: top;
 }
-.cartel a button h2{
-    color: white;
+.juego main{
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    /* display: flex; */
 }
-.cartel a button img{
-    height: 200px;
-    border-radius: 22px;
-    box-shadow: 10px 10px 10px 0 #292929;
-    background-color: transparent;
+.juego b{
+    font-size: 1rem;
+    margin: 4px;
+    height: 20px;
+    width: 80%;
+    text-align: start;
+    font-weight: 500;
+    display: block;
+}
+.juego p{
+    height: 10px;
+    text-align: end;
+    vertical-align: bottom;
+    /* display: block; */
+}
+.img-juego{
+        height: 125px;
+        display: inline;
+        border-radius: 10px;
+        max-width: 100%;
+        width: auto;
+}
+.cate{
+    text-decoration-line: none;
+    display: block;
+}
+
+.menu {
+    width: 400px;
+    height: 100vh;
+    background-color: #191551;
+    color: #fff;
+    position: fixed;
+    left: -400px;
+    transition: left 0.3s ease;
+    z-index: 999999;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 10px;
+}
+
+.menu-items li {
+    padding: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.cate:hover {
+    color: rgb(195, 201, 206);
+}
+.lateral-img{
+    filter: invert();
+    width: 2rem;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+.redes-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    right: 3%;
+}
+.redes-2 a img{
+    width: 2rem;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+}
+.redes-2 a img:hover{
+    filter: blur(1px);
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 480px;
+    top: 40px;
+    font-size: 20px;
+    background: #0c0a28;
+    border: 2px solid #fff;
+    padding: 7px 10px 7px 10px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+.toggle-btn:focus {
+    outline: none;
 }
 }

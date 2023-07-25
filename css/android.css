@@ -1,4 +1,4 @@
-@media(min-width:200px) {
+@media(max-width:850px) {
     .contra {
         color: #000e38;
     }
@@ -92,11 +92,11 @@
     #buscador {
         background-color: #000e38;
         border: 2px solid rgb(0, 255, 255);
-        height: 80px;
+        height: 40px;
         padding: 5px;
-        font-size: 2rem;
+        font-size: 1rem;
         color: white;
-        width: 50%;
+        width: 60%;
     }
 
     .notis {
@@ -178,79 +178,6 @@
         z-index: 999;
     }
 
-    .cartel1 {
-        display: none;
-        /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-    }
-
-    .cartel2 {
-        display: none;
-        /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-    }
-
-    .cartel3 {
-        display: none;
-        /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-    }
-
-    .cartel4 {
-        display: none;
-        /* El cartel estará oculto inicialmente */
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-    }
-
-    .cartel5 {
-        display: none;
-        /* El cartel estará oculto inicialmente */
-        position: relative;
-        height: 80%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #303030;
-        border: 2px solid rgba(71, 236, 236, 0.733);
-        color: white;
-        padding: 20px;
-        z-index: 999;
-        font-size: 0.5rem;
-        overflow-y: scroll;
-    }
-
     .cerrar {
         border: 1px solid rgba(72, 255, 255, 0.953);
         border-radius: 25%;
@@ -270,15 +197,13 @@
     .video:hover {
         color: white;
     }
-
-    .gamas {
+    .gamas{
         text-decoration: none;
         margin: 10px;
         color: #fff;
         text-align: start;
     }
-
-    .gamas button {
+    .gamas button{
         border: 1px solid #3aa8fd;
         border-radius: 10px;
         /* height: 120px; */
@@ -289,17 +214,15 @@
         vertical-align: middle;
         text-align: center;
     }
-
-    .gamas button img {
+    .gamas button img{
         height: 70px;
         border-radius: 10px;
         text-align: start;
     }
-
-    .gamas button h1 {
+    .gamah{
         color: white;
-        font-size: 1.3rem;
-        font-weight: 400;
+        font-size: 0.3rem;
+        font-weight: 200;
         display: inline;
         vertical-align: top;
         position: relative;
@@ -308,17 +231,15 @@
         /* position: relative; */
         /* bottom: 35px; */
     }
-
     .juego{
         color: white;
         background-color: #0c0a28;
         border: 2px solid #00d9ff;
-        width: 40%;
+        width: 160px;
         /* height: auto; */
         border-radius: 10px;
         padding: 5px;
-        margin-bottom: 10px;
-        margin-left: 10px;
+        margin-top: 10px;
         overflow: hidden;
         text-align: center;
     }
@@ -330,27 +251,28 @@
     .juego main{
         text-decoration: none;
         color: beige;
+        display: block;
     }
     .juego b{
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 500;
         display: block;
-        text-align: center;
+        text-align: start;
     }
     .juego p{
         margin-top: 35px;
-        font-size: 1.6rem;
+        font-size: 1rem;
         display: block;
     }
     .img-juego{
-            height: 300px;
+            height: 150px;
             display: inline;
             border-radius: 10px;
             max-width: 100%;
             width: auto;
     }
 .content-s div h1{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 
@@ -375,7 +297,7 @@
 .menu-items li {
     padding: 15px;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     vertical-align: middle;
 }
 .cate:hover {
@@ -383,7 +305,7 @@
 }
 .lateral-img{
     filter: invert();
-    width: 4rem;
+    width: 3rem;
     margin-right: 5px;
     vertical-align: text-bottom;
 }
@@ -395,7 +317,7 @@
 }
 .redes-2 a img{
     margin-top: 20px;
-    width: 5rem;
+    width: 3rem;
     margin-right: 5px;
     vertical-align: text-bottom;
 }
@@ -409,17 +331,17 @@
 
 .toggle-btn {
     position: absolute;
-    left: 480px;
+    left: 430px;
     top: 40px;
-    font-size: 50px;
+    font-size: 25px;
     background: #0c0a28;
     border: 3px solid #fff;
     padding: 5px;
     border-radius: 50%;
-    height: 90px;
+    height: 50px;
     text-align: center;
     vertical-align: middle;
-    width: 90px;
+    width: 50px;
     color: #fff;
     cursor: pointer;
     /* box-sizing: border-box; */
