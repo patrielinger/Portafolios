@@ -1,4 +1,4 @@
-@media(max-width:850px) {
+@media(min-width:250px) {
     .contra {
         color: #000e38;
     }
@@ -209,6 +209,7 @@
         /* height: 120px; */
         /* width: 220px; */
         padding: 5px;
+        font-size: 1rem;
         text-align: start;
         background-color: transparent;
         vertical-align: middle;
