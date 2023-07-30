@@ -5,6 +5,7 @@
 }
 
 @media(max-width:849px){
+
     .contra{
         color: #3cff00;
     }
@@ -119,6 +120,9 @@ section{
     font-weight: 400;
     display: inline;
 }
+.jogos{
+    margin-top: 40px;
+}
 .juego{
     color: white;
     background-color: #0c0a28;
@@ -221,7 +225,7 @@ section{
 
 .toggle-btn {
     position: absolute;
-    left: 480px;
+    left: 440px;
     top: 40px;
     font-size: 20px;
     background: #0c0a28;
@@ -233,5 +237,10 @@ section{
 }
 .toggle-btn:focus {
     outline: none;
+}
+header{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
 }
 }
