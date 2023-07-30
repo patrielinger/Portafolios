@@ -194,13 +194,14 @@ section{
     padding: 15px;
     cursor: pointer;
     vertical-align: middle;
+    font-size: 2rem;
 }
 .cate:hover {
     color: rgb(195, 201, 206);
 }
 .lateral-img{
     filter: invert();
-    width: 2rem;
+    width: 3rem;
     margin-right: 5px;
     vertical-align: text-bottom;
 }
@@ -211,7 +212,7 @@ section{
     right: 3%;
 }
 .redes-2 a img{
-    width: 2rem;
+    width: 3rem;
     margin-right: 5px;
     vertical-align: text-bottom;
 }
@@ -245,4 +246,5 @@ header{
     z-index: 999;
     text-align: center;
     right: 60%;
+}
 }
