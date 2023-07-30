@@ -1,3 +1,4 @@
+@import url(/css/android.css);
 *{
     padding: 0;
     color: white;
@@ -6,7 +7,7 @@
 
 @media(min-width:850px){
     .contra{
-        color: #000e38;
+        color: #3cff00;
     }
     #part1{
         color: #f437fa;
@@ -44,44 +45,6 @@
     .abrir{
         display: none;
     }
-    aside{
-        width: 20%;
-        text-align: center;
-        padding: 10px;
-        background-color: #292929;
-        position: relative;
-        margin: 10px;
-        border: 1px solid rgb(58, 168, 253);
-        border-radius: 10px;
-        display: inline-block;
-        /* position: fixed; */
-    }
-    aside b{
-        color: white;
-        text-align: center;
-        font-size: 30px;
-    }
-    aside li{
-        display: flex;
-        position: relative;
-        left: 30px;
-        color: rgb(58, 168, 253);
-        text-decoration: none;
-    }
-    aside li button{
-        background-color: transparent;
-        border: 0;
-        font-size: 1rem;
-    }
-    .categoria{
-        text-decoration: none;
-        color: rgb(188, 186, 186);
-        display: flex;
-        width: 90%;
-    }
-    .categoria:hover{
-        color: white;
-    }
     #buscador{
         background-color: #000e38;
         border: 2px solid rgb(0, 255, 255);
@@ -90,44 +53,6 @@
         font-size: 1.1rem;
         color:white;
         width: 19rem;
-    }
-    .notis{
-        /* padding-left: 50px; */
-        color: white;
-        position: relative;
-        /* text-align: center; */
-        flex: 1;
-    }
-    .asidee{
-        display: flex;
-    }
-    .articulo{
-        background-color: #414141;
-        border: 0;
-        border-radius: 10px;
-        display: flex;
-        padding: 10px;
-        color: white;
-        margin-bottom: 30px;
-    }
-    .articulo img{
-        height: 100px;
-        border-radius: 50%;
-    }
-    .articulo b{
-        position: relative;
-        top: 10px;
-    }
-    .articulo b a{
-        text-decoration: none;
-        color: rgb(246, 70, 255);
-    }
-    .articulo b a:hover{
-        color: rgb(234, 31, 160);
-    }
-    .articulo p{
-        position: relative;
-        top: 100px;
     }
     @import url('/css/search.css');
 section{
@@ -140,12 +65,13 @@ section{
 #listaArticulos{
     width: 100%;
     margin: 10px;
+    display: block;
 }
 .filtro{
     display: none;
 }
 .cartel {
-    display: none; /* El cartel estará oculto inicialmente */
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -164,14 +90,6 @@ section{
     background-color: transparent;
     color: white;
     position: relative;
-}
-.video{
-    /* text-decoration: none; */
-    color: rgb(216, 216, 216);
-    display: block;
-}
-.video:hover{
-    color: white;
 }
 .gamas{
     text-decoration: none;
@@ -194,28 +112,13 @@ section{
     height: 70px;
     border-radius: 10px;
     text-align: start;
+    vertical-align: middle;
 }
-.gamas button h1{
-    color: white;
-    font-size: 0rem;
-    font-weight: 200;
+.gamah{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
     display: inline;
-    vertical-align: top;
-    position: relative;
-    top: 20px;
-    /* text-align: center; */
-    /* position: relative; */
-    /* bottom: 35px; */
-}
-.star{
-    height: 20px;
-}
-.puntuacion{
-text-align: end;
-display: inline-block;
-}
-.star-num{
-    color: #ffc02c;
 }
 .juego{
     color: white;
@@ -333,3 +236,32 @@ display: inline-block;
     outline: none;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

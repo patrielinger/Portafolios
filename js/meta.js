@@ -82,7 +82,14 @@ window.addEventListener('scroll', lazyLoadImages);
 
 
 //cerrar
-      function ocultarCartel() {
+      function ocultarCartelvv() {
+      var carteles = document.getElementsByClassName("active-cartel");
+
+      for (var i = 0; i < carteles.length; i++) {
+        carteles[i].style.display = "none";
+      }
+    }
+    function ocultarCartel() {
       var carteles = document.getElementsByClassName("cartel");
 
       for (var i = 0; i < carteles.length; i++) {

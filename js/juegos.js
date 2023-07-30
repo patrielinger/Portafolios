@@ -56,7 +56,7 @@ function cambiarDisplay1() {
 // codigo random
 
 function generarCodigo() {
-  var caracteres = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUxXzZyYvV";
+  var caracteres = "1234567890";
   var codigo = "";
 
   for (var i = 0; i < 11; i++) {
@@ -236,4 +236,35 @@ function modificarParte() {
     let parteModificar = document.getElementById("parte-modificar4");
   
     parteModificar.innerHTML = nuevoTexto;
+  }
+
+
+
+
+
+
+
+
+  function openTab(tabId) {
+    // Ocultar todos los contenidos de pestañas
+    const tabContents = document.getElementsByClassName("tab-content");
+    for (let i = 0; i < tabContents.length; i++) {
+      tabContents[i].style.display = "none";
+    }
+
+    // Mostrar solo el contenido de la pestaña seleccionada
+    const selectedTab = document.getElementById(tabId);
+    if (selectedTab) {
+      selectedTab.style.display = "block";
+    }
+
+    // Resaltar el botón de la pestaña activa
+    const tabButtons = document.getElementsByClassName("tab-buttons")[0].children;
+    for (let i = 0; i < tabButtons.length; i++) {
+      tabButtons[i].classList.remove("active-cartel");
+    }
+    const activeButton = Array.from(tabButtons).find((button) => button.getAttribute("onclick") === `openTab('${tabId}')`);
+    if (activeButton) {
+      activeButton.classList.add("active-cartel");
+    }
   }
