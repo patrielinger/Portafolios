@@ -194,7 +194,7 @@ section{
     padding: 15px;
     cursor: pointer;
     vertical-align: middle;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .cate:hover {
     color: rgb(195, 201, 206);
@@ -239,12 +239,23 @@ section{
 .toggle-btn:focus {
     outline: none;
 }
+
 header{
     width: auto;
     height: auto;
     margin-bottom: 10px;
     z-index: 999;
     text-align: center;
-    right: 60%;
+    margin-right: 18%;
+}
+header img{
+    width: 150px;
+    border-radius: 50%;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+header h1{
+    display: inline-block;
 }
 }
